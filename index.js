@@ -26,12 +26,9 @@ class Route{
     return horizontalTravelled + verticalTravelled
   }
   estimatedTime(peak){
-    let rate = 0
+    let rate =3 
     if (peak) {
       rate = 2
-    else {
-      rate = 3
-      }
     }
     return this.blocksTravelled()/rate
   }
