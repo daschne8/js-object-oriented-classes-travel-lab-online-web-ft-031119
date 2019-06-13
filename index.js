@@ -16,5 +16,5 @@ class Route{
     this.beginingLocation = beginingLocation
     this.endingLocation = endingLocation
   }
-  
+
 }
