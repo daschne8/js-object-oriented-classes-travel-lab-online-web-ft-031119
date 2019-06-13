@@ -26,7 +26,7 @@ class Route{
     return horizontalTravelled + verticalTravelled
   }
   estimatedTime(peak){
-    let rate =3 
+    let rate =3
     if (peak) {
       rate = 2
     }
