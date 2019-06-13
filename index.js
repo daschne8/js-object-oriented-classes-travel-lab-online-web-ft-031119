@@ -25,7 +25,14 @@ class Route{
     const verticalTravelled = Math.abs(beginingLocation.vertical - endingLocation.vertical)
     return horizontalTravelled + verticalTravelled
   }
-  estimatedTime(){
+  estimatedTime(peak){
+    let rate = 0
+    if (peak) {
+      rate = 2
+    else {
+      rate = 3
+      }
+    }
     return this.blocksTravelled()/3
   }
 }
