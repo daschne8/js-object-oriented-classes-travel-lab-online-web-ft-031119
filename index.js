@@ -25,4 +25,7 @@ class Route{
     const verticalTravelled = Math.abs(beginingLocation.vertical - endingLocation.vertical)
     return horizontalTravelled + verticalTravelled
   }
+  estimatedTime(){
+    return blocksTravelled/3
+  }
 }
