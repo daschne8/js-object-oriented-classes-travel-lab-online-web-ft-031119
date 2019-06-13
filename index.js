@@ -1,7 +1,7 @@
 class Driver{
   constructor(name, start){
     this.name = name
-    this.startDate = start
+    this.start = start
   }
   startDate(){
     return Date(start)
